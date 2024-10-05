@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Conjunto Cipreses de la Armenia",
+    "location": "A 300 Mts del parque Metropolitano de la Armenia",
+    "type": "Residencial",
+    "image": "ConjuntoCipresesDeLaArmenia-image.png",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "title": "Conjunto Kiyomi",
+    "location": "Pacho Salas con acceso directo desde la Ruta Viva sobre la calle Jaime Salvador, Tumbaco",
+    "type": "Residencial",
+    "image": "ConjuntoKiyomi-image.png",
+    "description": ""
+  },
+  {
+    "id": 3,
+    "title": "AQWA VILLAGE",
+    "location": "Valle de Tumbaco a 300 m. de la Av. Interoceánica y a 5 min. de la Ruta Viva",
+    "type": "Residencial",
+    "image": "AQWAVillage-image.png",
+    "description": ""
+  },
+  {
+    "id": 4,
+    "title": "Plaza Koen",
+    "location": "Sobre la Ruta Viva - Intervalles",
+    "type": "Commercial",
+    "image": "PlazaKoen-image.png",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "title": "Conjunto Koun",
+    "location": "Valle de Tumbaco, Calle los Cipreses - Km 8 de la Ruta Viva",
+    "type": "Residencial",
+    "image": "ConjuntoKoun-image.png",
+    "description": ""
+  },
+  {
+    "id": 6,
+    "title": "Edificio Dream Plaza",
+    "location": "Av. Naciones Unidas y Veracruz, Iñaquito",
+    "type": "Commercial",
+    "image": "EdificioDreamPlaza-image.png",
+    "description": ""
+  },
+  {
+    "id": 7,
+    "title": "Amahru",
+    "location": "Rodrigo Muriel y Paseo de la Universidad, Norte de Quito",
+    "type": "Residencial",
+    "image": "Amahru-image.png",
+    "description": ""
+  },
+  {
+    "id": 8,
+    "title": "Edificio Vasco",
+    "location": "Granda Centeno, Norte de Quito",
+    "type": "Residencial",
+    "image": "EdificioVasco-image.png",
+    "description": ""
+  },
+  {
+    "id": 9,
+    "title": "Edificio Mana",
+    "location": "Quito Tennis, Granda Centeno, Norte de Quito",
+    "type": "Residencial",
+    "image": "EdificioMana-image.png",
+    "description": ""
+  },
+  {
+    "id": 10,
+    "title": "Conjunto Algarrobos de Pomasqui",
+    "location": "A pocos pasos del C.C. Pomasqui Plaza, sobre la Av. Manuel Córdova Galarza",
+    "type": "Residencial",
+    "image": "ConjuntoAlgarrobosDePomasqui-image.png",
+    "description": ""
+  },
+  {
+    "id": 11,
+    "title": "Edificio Sequori",
+    "location": "El Condado sobre la Av. Occidental",
+    "type": "Residencial",
+    "image": "EdificioSequori-image.png",
+    "description": ""
+  },
+  {
+    "id": 12,
+    "title": "Conjunto Villa Equinoccio",
+    "location": "Calle Museo Solar y 13 de Junio, Mitad del Mundo",
+    "type": "Residencial",
+    "image": "ConjuntoVillaEquinoccio-image.png",
+    "description": ""
+  }
+]

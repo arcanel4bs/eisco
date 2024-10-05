@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Construcciones eléctricas",
+    "description": "Diseñamos e implementamos soluciones eléctricas innovadoras y eficientes para todo tipo de proyectos.",
+    "icon": "FaBolt",
+    "items": [
+      "Instalaciones eléctricas residenciales y comerciales",
+      "Sistemas de iluminación",
+      "Redes de distribución eléctrica",
+      "Automatización y control",
+      "Mantenimiento eléctrico"
+    ]
+  },
+  {
+    "title": "Construcciones civiles",
+    "description": "Ofrecemos servicios integrales de construcción civil, desde la planificación hasta la ejecución de proyectos.",
+    "icon": "FaBuilding",
+    "items": [
+      "Edificios residenciales y comerciales",
+      "Infraestructura industrial",
+      "Obras públicas",
+      "Remodelaciones y ampliaciones",
+      "Gestión de proyectos de construcción"
+    ]
+  },
+  {
+    "title": "Suministros",
+    "description": "Proveemos una amplia gama de suministros eléctricos y de construcción de alta calidad para sus proyectos.",
+    "icon": "FaBoxes",
+    "items": [
+      "Materiales eléctricos",
+      "Equipos de seguridad",
+      "Herramientas y maquinaria",
+      "Materiales de construcción",
+      "Sistemas de climatización"
+    ]
+  }
+]
