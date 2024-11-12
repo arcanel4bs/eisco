@@ -8,22 +8,22 @@ function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4 font-montserrat">EISCO</h3>
-            <p className="font-roboto">Transformando sueños en realidad desde hace más de 30 años.</p>
+            <h3 className="text-xl font-semibold mb-4 font-montserrat">EISCO | Construcción y Servicios</h3>
+            <p className="font-roboto"> Más de 19 años de experiencia en inenieria civil y eléctrica.</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 font-montserrat">Enlaces</h3>
             <ul className="space-y-2 font-roboto">
               <li><Link to="/" className="hover:text-gray-300">Inicio</Link></li>
+              <li><Link to="/about" className="hover:text-gray-300">Nosotros</Link></li>
               <li><Link to="/projects" className="hover:text-gray-300">Proyectos</Link></li>
-              <li><Link to="/about" className="hover:text-gray-300">Sobre Nosotros</Link></li>
               <li><Link to="/contact" className="hover:text-gray-300">Contacto</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 font-montserrat">Contacto</h3>
             <div className="font-roboto">
-              <p>Email: eisco@eisco.com</p>
+              <p>Email: administracion@eisco.com.ec</p>
               <p>Teléfono: (+593) 0987283452</p>
               <p>Dirección: El Colibrí II, Sangolquí 171103</p>
             </div>

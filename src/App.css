@@ -6,10 +6,11 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  height: 16px;
+  width: 24px;
+  padding: 0;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -56,4 +57,12 @@ body {
 
 .body-text {
   font-family: 'Roboto', sans-serif;
+}
+
+/* Add these styles for the favicon */
+.favicon {
+  height: 16px;
+  width: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
 }

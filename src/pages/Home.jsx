@@ -17,8 +17,17 @@ function Home() {
   };
 
   return (
-    <div className="">
-      <PresentationText />
+    <div className="w-full">
+      <section className="relative mb-8 w-screen -mx-[calc((100vw-100%)/2)]">
+        <img
+          src="/hero-inicio.png"
+          alt="Hero"
+          className="w-full h-[600px] object-cover opacity-60"
+        />
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60">
+          <PresentationText />
+        </div>
+      </section>
       
       <section className="mb-12">
         <h2 className="text-3xl flex justify-center mb-8 text-gray-800 font-montserrat font-semibold">Nuestros Servicios</h2>

@@ -1,56 +1,77 @@
 import React from 'react';
-import ServiceCard from '../components/ServiceCard';
-import { FaBolt, FaBuilding, FaBoxes } from 'react-icons/fa';
 
 function Services() {
-  const services = [
-    {
-      title: "Construcciones eléctricas",
-      description: "Diseñamos e implementamos soluciones eléctricas innovadoras y eficientes para todo tipo de proyectos.",
-      icon: <FaBolt />,
-      items: [
-        "Instalaciones eléctricas residenciales y comerciales",
-        "Sistemas de iluminación",
-        "Redes de distribución eléctrica",
-        "Automatización y control",
-        "Mantenimiento eléctrico"
-      ]
-    },
-    {
-      title: "Construcciones civiles",
-      description: "Ofrecemos servicios integrales de construcción civil, desde la planificación hasta la ejecución de proyectos.",
-      icon: <FaBuilding />,
-      items: [
-        "Edificios residenciales y comerciales",
-        "Infraestructura industrial",
-        "Obras públicas",
-        "Remodelaciones y ampliaciones",
-        "Gestión de proyectos de construcción"
-      ]
-    },
-    {
-      title: "Suministros",
-      description: "Proveemos una amplia gama de suministros eléctricos y de construcción de alta calidad para sus proyectos.",
-      icon: <FaBoxes />,
-      items: [
-        "Materiales eléctricos",
-        "Equipos de seguridad",
-        "Herramientas y maquinaria",
-        "Materiales de construcción",
-        "Sistemas de climatización"
-      ]
-    }
-  ];
-
   return (
-    <div>
-      <div className="text-3xl text-gray-800 mb-8 flex justify-center font-montserrat font-semibold">
-        <h1>Nuestros Servicios</h1>
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl mb-8 text-center text-gray-800 font-montserrat font-semibold">Servicios</h1>
+      
+      <div className="flex flex-col md:flex-row mb-12 border border-gray-100 rounded-lg shadow-md overflow-hidden">
+        <div className="md:w-1/2">
+          <div className="h-full bg-gray-100">
+            <img 
+              src="/imagen-const-electrica.png" 
+              alt="Construcciones eléctricas" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+        <div className="md:w-1/2 p-8">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-4 font-montserrat">Construcciones eléctricas</h2>
+          <p className="text-lg text-gray-600 mb-4 font-roboto">
+            Nos especializamos en el desarrollo de soluciones de infraestructura eléctrica que cumplen con los más altos estándares de calidad y seguridad. Nuestros servicios de construcción eléctrica abarcan desde instalaciones en bajo y medio voltaje hasta sistemas de iluminación avanzados y redes de distribución.
+          </p>
+          <ul className="list-disc list-inside text-lg text-gray-600 mb-4 font-roboto">
+            <li>Iluminación interior y exterior: Instalación y diseño de sistemas de iluminación adaptados a diversos espacios y necesidades, con eficiencia y estética.</li>
+            <li>Circuitos de fuerza: Montaje de circuitos eléctricos de potencia, garantizando una distribución segura y eficiente de la energía.</li>
+            <li>Redes en medio y bajo voltaje: Diseño e instalación de redes de distribución para edificios y complejos industriales en diferentes niveles de tensión.</li>
+            <li>Centros de transformación y protección: Implementación de estaciones de transformación para asegurar una entrega constante y controlada de energía.</li>
+            <li>Redes subterráneas: Instalación de sistemas de distribución subterráneos para proteger los cables y mejorar la estética del entorno.</li>
+          </ul>
+        </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {services.map((service, index) => (
-          <ServiceCard key={index} {...service} />
-        ))}
+
+      <div className="flex flex-col md:flex-row-reverse mb-12 border border-gray-100 rounded-lg shadow-md overflow-hidden">
+        <div className="md:w-1/2">
+          <div className="h-full bg-gray-100">
+            <img 
+              src="/imagen-const-civil-2.png" 
+              alt="Construcciones civiles" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+        <div className="md:w-1/2 p-8">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-4 font-montserrat">Construcciones civiles</h2>
+          <p className="text-lg text-gray-600 mb-4 font-roboto">
+            Nuestros servicios de construcción civil cubren desde la planificación inicial hasta la entrega de proyectos llave en mano. Con un enfoque en la calidad, sostenibilidad y puntualidad, EISCO ofrece soluciones integrales que se adaptan a los requerimientos de cada proyecto.
+          </p>
+          <ul className="list-disc list-inside text-lg text-gray-600 mb-4 font-roboto">
+            <li>Desarrollo de proyectos estructurales</li>
+            <li>Urbanización y obra pública</li>
+            <li>Remodelación y adecuación de espacios</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row border border-gray-100 rounded-lg shadow-md overflow-hidden">
+        <div className="md:w-1/2">
+          <div className="h-full bg-gray-100">
+            <img 
+              src="/path/to/supplies.jpg" 
+              alt="Suministros" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+        <div className="md:w-1/2 p-8">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-4 font-montserrat">Suministros</h2>
+          <p className="text-lg text-gray-600 mb-4 font-roboto">
+            EISCO ofrece una amplia gama de suministros especializados para el sector eléctrico, facilitando a nuestros clientes el acceso a productos de calidad que cumplen con las normativas técnicas y de seguridad.
+          </p>
+          <ul className="list-disc list-inside text-lg text-gray-600 font-roboto">
+            <li>Provisión de materiales eléctricos: Ofrecemos una gran variedad de productos para cumplir con las especificaciones técnicas de cada proyecto.</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
