@@ -8,7 +8,7 @@ function ServiceCard({ title, description, icon, items, subServices }) {
         {icon}
       </div>
       <div className="flex-1 flex flex-col">
-        <h3 className="text-2xl font-bold mb-2 text-gray-800 font-montserrat">{title}</h3>
+        <h3 className="text-2xl font-semibold mb-2 text-gray-800 font-montserrat">{title}</h3>
         <p className="text-gray-600 mb-4 flex-grow font-roboto">{description}</p>
         
         {subServices && subServices.length > 0 && (
