@@ -2,7 +2,7 @@ import React from 'react'
 
 function MainApp() {
   return (
-    <div>
+    <div className="bg-[#4A0404]/5">
       <section className="mb-8 flex justify-center">
         <img
           src={landingpic1}

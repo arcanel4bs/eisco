@@ -44,11 +44,8 @@ function Services() {
 
   return (
     <div>
-      <div className="text-3xl text-white mb-8 flex justify-center">
+      <div className="text-3xl text-gray-800 mb-8 flex justify-center font-montserrat font-semibold">
         <h1>Nuestros Servicios</h1>
-      </div>
-      <div className="mb-8">
-        <img src="./bulb-world.jpg" alt="Bulb World" className="w-full h-2/3 object-cover" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((service, index) => (

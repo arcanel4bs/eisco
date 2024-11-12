@@ -13,40 +13,43 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="max-w-md mx-auto">
-      <div className="mb-4">
-        <label htmlFor="name" className="block text-black mb-2">Nombre</label>
+      <div className="mb-6">
+        <label htmlFor="name" className="block text-gray-800 mb-2 font-montserrat">Nombre</label>
         <input
           type="text"
           id="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
-          className="w-full px-3 py-2 bg-gray-100 text-black border border-gray-300 focus:outline-none focus:border-gray-500"
+          className="w-full px-4 py-2 bg-gray-50 text-gray-800 border border-gray-100 rounded-lg focus:outline-none focus:border-gray-200 focus:ring-1 focus:ring-gray-200 font-roboto"
         />
       </div>
-      <div className="mb-4">
-        <label htmlFor="email" className="block text-black mb-2">Email</label>
+      <div className="mb-6">
+        <label htmlFor="email" className="block text-gray-800 mb-2 font-montserrat">Email</label>
         <input
           type="email"
           id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          className="w-full px-3 py-2 bg-gray-100 text-black border border-gray-300 focus:outline-none focus:border-gray-500"
+          className="w-full px-4 py-2 bg-gray-50 text-gray-800 border border-gray-100 rounded-lg focus:outline-none focus:border-gray-200 focus:ring-1 focus:ring-gray-200 font-roboto"
         />
       </div>
-      <div className="mb-4">
-        <label htmlFor="message" className="block text-black mb-2">Mensaje</label>
+      <div className="mb-6">
+        <label htmlFor="message" className="block text-gray-800 mb-2 font-montserrat">Mensaje</label>
         <textarea
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
-          className="w-full px-3 py-2 bg-gray-100 text-black border border-gray-300 focus:outline-none focus:border-gray-500"
+          className="w-full px-4 py-2 bg-gray-50 text-gray-800 border border-gray-100 rounded-lg focus:outline-none focus:border-gray-200 focus:ring-1 focus:ring-gray-200 font-roboto"
           rows="4"
         ></textarea>
       </div>
-      <button type="submit" className="bg-black text-white px-4 py-2 hover:bg-gray-800 transition duration-300">
+      <button 
+        type="submit" 
+        className="w-full bg-gray-50 text-gray-800 px-6 py-3 rounded-lg border border-gray-100 hover:bg-gray-100 transition-colors font-montserrat"
+      >
         Enviar
       </button>
     </form>

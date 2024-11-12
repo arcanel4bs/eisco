@@ -1,22 +1,35 @@
 import { Link } from 'react-router-dom';
 
-function Navbar({ show }) {
+function Navbar() {
   return (
-    <nav className={`fixed top-0 left-0 right-0 bg-white text-black p-4 transition-transform duration-300 ${show ? 'translate-y-0' : '-translate-y-full'}`}>
+    <nav className="fixed top-0 left-0 right-0 bg-white text-gray-700 border-b border-gray-100 shadow-md p-4 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex-1">
-          {/* This empty div helps with centering */}
+        <div className="flex-1 flex justify-center pl-32 items-center space-x-4">
+          <Link to="/">
+            <img 
+              src="/eisco-logo.png" 
+              alt="EISCO Logo" 
+              className="h-16 w-auto"
+            />
+          </Link>
+          <img 
+            src="/eisco-description.png"
+            alt="EISCO Description"
+            className="h-10 w-auto"
+          />
         </div>
         
-        <Link to="/" className="text-2xl font-semibold flex-1 text-center">EISCO</Link>
-        
-        <ul className="flex space-x-6 flex-1 justify-end">
-          <li><Link to="/" className="hover:text-white hover:bg-black p-2">Inicio</Link></li>
-          <li><Link to="/services" className="hover:text-white hover:bg-black p-2">Servicios</Link></li>
-          <li><Link to="/projects" className="hover:text-white hover:bg-black p-2">Proyectos</Link></li>
-          <li><Link to="/about" className="hover:text-white hover:bg-black p-2">Nosotros</Link></li>
-          <li><Link to="/contact" className="hover:text-white hover:bg-black p-2">Contacto</Link></li>
+        <ul className="flex space-x-6 justify-center flex-1 text-lg font-montserrat">
+          <li><Link to="/" className="hover:bg-gray-50 rounded-lg p-2 transition-colors">Inicio</Link></li>
+          <li><Link to="/services" className="hover:bg-gray-50 rounded-lg p-2 transition-colors">Servicios</Link></li>
+          <li><Link to="/projects" className="hover:bg-gray-50 rounded-lg p-2 transition-colors">Proyectos</Link></li>
+          <li><Link to="/about" className="hover:bg-gray-50 rounded-lg p-2 transition-colors">Nosotros</Link></li>
+          <li><Link to="/contact" className="hover:bg-gray-50 rounded-lg p-2 transition-colors">Contacto</Link></li>
         </ul>
+
+        <div className="flex-1">
+          {/* Empty div for spacing */}
+        </div>
       </div>
     </nav>
   );
