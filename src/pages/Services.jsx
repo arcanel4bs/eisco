@@ -3,20 +3,20 @@ import React from 'react';
 function Services() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl mb-8 text-center text-gray-800 font-montserrat">Servicios</h1>
+      <h1 className="text-4xl mb-8 text-center text-[#4A0404] font-montserrat">Servicios</h1>
       
       <div className="flex flex-col md:flex-row mb-12 border border-gray-100 rounded-lg shadow-md overflow-hidden">
         <div className="md:w-1/2">
           <div className="h-full bg-gray-100">
             <img 
-              src="/imagen-const-electrica.png" 
+              src="/imagen-const-electrica2.png" 
               alt="Construcciones eléctricas" 
               className="w-full h-full object-cover"
             />
           </div>
         </div>
         <div className="md:w-1/2 p-8">
-          <h2 className="text-3xl text-gray-800 mb-4 font-montserrat">Construcciones eléctricas</h2>
+          <h2 className="text-3xl text-[#4A0404] mb-4 font-montserrat">Construcciones eléctricas</h2>
           <p className="text-lg text-gray-600 mb-4 font-roboto">
             Nos especializamos en el desarrollo de soluciones de infraestructura eléctrica que cumplen con los más altos estándares de calidad y seguridad. Nuestros servicios de construcción eléctrica abarcan desde instalaciones en bajo y medio voltaje hasta sistemas de iluminación avanzados y redes de distribución.
           </p>
@@ -41,7 +41,7 @@ function Services() {
           </div>
         </div>
         <div className="md:w-1/2 p-8">
-          <h2 className="text-3xl text-gray-800 mb-4 font-montserrat">Construcciones civiles</h2>
+          <h2 className="text-3xl text-[#4A0404] mb-4 font-montserrat">Construcciones civiles</h2>
           <p className="text-lg text-gray-600 mb-4 font-roboto">
             Nuestros servicios de construcción civil cubren desde la planificación inicial hasta la entrega de proyectos llave en mano. Con un enfoque en la calidad, sostenibilidad y puntualidad, EISCO ofrece soluciones integrales que se adaptan a los requerimientos de cada proyecto.
           </p>
@@ -57,14 +57,14 @@ function Services() {
         <div className="md:w-1/2">
           <div className="h-full bg-gray-100">
             <img 
-              src="/path/to/supplies.jpg" 
+              src="/imagen-const-suministro.png" 
               alt="Suministros" 
               className="w-full h-full object-cover"
             />
           </div>
         </div>
         <div className="md:w-1/2 p-8">
-          <h2 className="text-3xl text-gray-800 mb-4 font-montserrat">Suministros</h2>
+          <h2 className="text-3xl text-[#4A0404] mb-4 font-montserrat">Suministros</h2>
           <p className="text-lg text-gray-600 mb-4 font-roboto">
             EISCO ofrece una amplia gama de suministros especializados para el sector eléctrico, facilitando a nuestros clientes el acceso a productos de calidad que cumplen con las normativas técnicas y de seguridad.
           </p>

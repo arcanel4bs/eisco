@@ -1,18 +1,17 @@
-[
-  {
-    "id": 1,
-    "title": "Conjunto Cipreses de la Armenia",
-    "location": "A 300 Mts del parque Metropolitano de la Armenia",
-    "type": "Residencial",
-    "image": "ConjuntoCipresesDeLaArmenia-image.png",
-    "description": ""
-  },
+[ {
+  "id": 1,
+  "title": "Plaza Koen",
+  "location": "Sobre la Ruta Viva - Intervalles",
+  "type": "Commercial",
+  "image": "PlazaKoen-image.png",
+  "description": ""
+},
   {
     "id": 2,
     "title": "Conjunto Kiyomi",
     "location": "Pacho Salas con acceso directo desde la Ruta Viva sobre la calle Jaime Salvador, Tumbaco",
     "type": "Residencial",
-    "image": "ConjuntoKiyomi-image.png",
+    "image": "ConjuntoKiyomi-image.jpg",
     "description": ""
   },
   {
@@ -20,23 +19,24 @@
     "title": "AQWA VILLAGE",
     "location": "Valle de Tumbaco a 300 m. de la Av. Interoceánica y a 5 min. de la Ruta Viva",
     "type": "Residencial",
-    "image": "AQWAVillage-image.png",
+    "image": "AQWAVillage-image.jpg",
     "description": ""
   },
   {
     "id": 4,
-    "title": "Plaza Koen",
-    "location": "Sobre la Ruta Viva - Intervalles",
-    "type": "Commercial",
-    "image": "PlazaKoen-image.png",
+    "title": "Conjunto Cipreses de la Armenia",
+    "location": "A 300 Mts del parque Metropolitano de la Armenia",
+    "type": "Residencial",
+    "image": "ConjuntoCipresesDeLaArmenia-image.jpg",
     "description": ""
   },
+  
   {
     "id": 5,
     "title": "Conjunto Koun",
     "location": "Valle de Tumbaco, Calle los Cipreses - Km 8 de la Ruta Viva",
     "type": "Residencial",
-    "image": "ConjuntoKoun-image.png",
+    "image": "ConjuntoKoun-image.jpg",
     "description": ""
   },
   {
@@ -52,7 +52,7 @@
     "title": "Amahru",
     "location": "Rodrigo Muriel y Paseo de la Universidad, Norte de Quito",
     "type": "Residencial",
-    "image": "Amahru-image.png",
+    "image": "Amahru-image.jpg",
     "description": ""
   },
   {
@@ -76,7 +76,7 @@
     "title": "Conjunto Algarrobos de Pomasqui",
     "location": "A pocos pasos del C.C. Pomasqui Plaza, sobre la Av. Manuel Córdova Galarza",
     "type": "Residencial",
-    "image": "ConjuntoAlgarrobosDePomasqui-image.png",
+    "image": "ConjuntoAlgarrobosDePomasqui-image.jpg",
     "description": ""
   },
   {
@@ -92,7 +92,7 @@
     "title": "Conjunto Villa Equinoccio",
     "location": "Calle Museo Solar y 13 de Junio, Mitad del Mundo",
     "type": "Residencial",
-    "image": "ConjuntoVillaEquinoccio-image.png",
+    "image": "ConjuntoVillaEquinoccio-image.jpg",
     "description": ""
   }
 ]

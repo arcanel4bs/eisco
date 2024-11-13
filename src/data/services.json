@@ -1,38 +1,32 @@
 [
   {
     "title": "Construcciones eléctricas",
-    "description": "Diseñamos e implementamos soluciones eléctricas innovadoras y eficientes para todo tipo de proyectos.",
+    "description": "Nos especializamos en el desarrollo de soluciones de infraestructura eléctrica que cumplen con los más altos estándares de calidad y seguridad, desde instalaciones en bajo y medio voltaje hasta sistemas de iluminación avanzados.",
     "icon": "FaBolt",
     "items": [
-      "Instalaciones eléctricas residenciales y comerciales",
-      "Sistemas de iluminación",
-      "Redes de distribución eléctrica",
-      "Automatización y control",
-      "Mantenimiento eléctrico"
+      "Iluminación interior y exterior",
+      "Circuitos de fuerza",
+      "Redes en medio y bajo voltaje",
+      "Centros de transformación y protección",
+      "Redes subterráneas"
     ]
   },
   {
     "title": "Construcciones civiles",
-    "description": "Ofrecemos servicios integrales de construcción civil, desde la planificación hasta la ejecución de proyectos.",
+    "description": "Nuestros servicios de construcción civil cubren desde la planificación inicial hasta la entrega de proyectos llave en mano, con enfoque en la calidad, sostenibilidad y puntualidad.",
     "icon": "FaBuilding",
     "items": [
-      "Edificios residenciales y comerciales",
-      "Infraestructura industrial",
-      "Obras públicas",
-      "Remodelaciones y ampliaciones",
-      "Gestión de proyectos de construcción"
+      "Desarrollo de proyectos estructurales",
+      "Urbanización y obra pública",
+      "Remodelación y adecuación de espacios"
     ]
   },
   {
     "title": "Suministros",
-    "description": "Proveemos una amplia gama de suministros eléctricos y de construcción de alta calidad para sus proyectos.",
+    "description": "EISCO ofrece una amplia gama de suministros especializados para el sector eléctrico, facilitando el acceso a productos de calidad que cumplen con las normativas técnicas y de seguridad.",
     "icon": "FaBoxes",
     "items": [
-      "Materiales eléctricos",
-      "Equipos de seguridad",
-      "Herramientas y maquinaria",
-      "Materiales de construcción",
-      "Sistemas de climatización"
+      "Provisión de materiales eléctricos"
     ]
   }
 ]

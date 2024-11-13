@@ -30,8 +30,8 @@ function Home() {
       </section>
       
       <section className="mb-16 mt-24">
-        <h2 className="text-3xl flex justify-center mb-8 text-gray-800 font-montserrat">Nuestros Servicios</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <h2 className="text-3xl flex justify-center mb-8 text-[#4A0404] font-montserrat">Nuestros Servicios</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-4">
           {servicesData.map((service, index) => (
             <ServiceCard 
               key={index} 
@@ -40,21 +40,29 @@ function Home() {
             />
           ))}
         </div>
+        <div className="flex justify-center mt-4">
+          <Link 
+            to="/services" 
+            className="bg-gray-50 text-gray-800 px-6 py-2 rounded-lg border border-gray-300 hover:bg-gray-100 transition-colors font-roboto"
+          >
+            Ver más
+          </Link>
+        </div>
       </section>
       
-      <section>
-        <h2 className="text-3xl flex justify-center mb-16 text-gray-800 font-montserrat">Proyectos</h2>
+      <section className='mb-8'>
+        <h2 className="text-3xl flex justify-center mb-16 text-[#4A0404] font-montserrat">Proyectos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {featuredProjects.map(project => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
-        <div className='flex justify-center mb-2 py-4'>
+        <div className='flex justify-center mb-2 p-8'>
           <Link 
             to="/projects" 
             className="bg-gray-50 text-gray-800 px-6 py-2 rounded-lg border border-gray-300 hover:bg-gray-100 transition-colors font-roboto"
           >
-            Ver Proyectos
+            Ver Todos
           </Link>
         </div>
       </section>
