@@ -16,12 +16,13 @@
   },
   {
     "id": 3,
-    "title": "AQWA VILLAGE",
-    "location": "Valle de Tumbaco a 300 m. de la Av. Interoceánica y a 5 min. de la Ruta Viva",
+    "title": "Edificio Mana",
+    "location": "Quito Tennis, Granda Centeno, Norte de Quito",
     "type": "Residencial",
-    "image": "AQWAVillage-image.jpg",
+    "image": "EdificioMana-image.png",
     "description": ""
   },
+  
   {
     "id": 4,
     "title": "Conjunto Cipreses de la Armenia",
@@ -44,7 +45,7 @@
     "title": "Edificio Dream Plaza",
     "location": "Av. Naciones Unidas y Veracruz, Iñaquito",
     "type": "Commercial",
-    "image": "EdificioDreamPlaza-image.png",
+    "image": "EdificioDreamPlaza-image.jpg",
     "description": ""
   },
   {
@@ -65,10 +66,10 @@
   },
   {
     "id": 9,
-    "title": "Edificio Mana",
-    "location": "Quito Tennis, Granda Centeno, Norte de Quito",
+    "title": "AQWA Village",
+    "location": "Valle de Tumbaco a 300 m. de la Av. Interoceánica y a 5 min. de la Ruta Viva",
     "type": "Residencial",
-    "image": "EdificioMana-image.png",
+    "image": "AQWAVillage-image.jpg",
     "description": ""
   },
   {

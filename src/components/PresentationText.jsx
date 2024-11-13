@@ -3,9 +3,11 @@ import React from 'react'
 function PresentationText() {
   return (
     <div className="text-white">
-      <div className="max-w-3xl mx-auto">
-        <p className="text-center text-3xl mb-4">Construcción y Servicios</p>
-        <p className="text-center text-3xl font-semibold">Más de 19 años de experiencia en ingeniería eléctrica y civil</p>
+      <div className="max-w-4xl mx-auto text-center">
+        <h1 className="text-5xl font-light mb-6">Construcción y Servicios</h1>
+        <p className="text-3xl font-semibold">
+          Más de 19 años de experiencia en ingeniería eléctrica y civil
+        </p>
       </div>
     </div>
   )

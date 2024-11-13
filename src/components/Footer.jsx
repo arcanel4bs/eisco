@@ -9,13 +9,14 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4 font-montserrat">EISCO | Construcción y Servicios</h3>
-            <p className="font-roboto"> Más de 19 años de experiencia en inenieria civil y eléctrica.</p>
+            <p className="font-roboto"> Más de 19 años de experiencia en ingeniería civil y eléctrica.</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 font-montserrat">Enlaces</h3>
             <ul className="space-y-2 font-roboto">
               <li><Link to="/" className="hover:text-gray-300">Inicio</Link></li>
               <li><Link to="/about" className="hover:text-gray-300">Nosotros</Link></li>
+              <li><Link to="/services" className="hover:text-gray-300">Servicios</Link></li>
               <li><Link to="/projects" className="hover:text-gray-300">Proyectos</Link></li>
               <li><Link to="/contact" className="hover:text-gray-300">Contacto</Link></li>
             </ul>
