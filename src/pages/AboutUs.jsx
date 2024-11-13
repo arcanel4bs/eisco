@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
   return (
@@ -20,12 +21,12 @@ const AboutUs = () => {
           Ser líderes reconocidos en la industria de la construcción eléctrica y civil en Ecuador, destacándonos por nuestra ética, calidad y compromiso con el desarrollo sostenible. Nos proyectamos como una empresa innovadora y adaptativa, capaz de enfrentar los desafíos del sector con soluciones que aporten al crecimiento y modernización de la infraestructura.
         </p>
         <div className="mt-12">
-          <a 
-            href="/contact" 
+          <Link 
+            to="/contact" 
             className="bg-gray-50 text-gray-800 px-8 py-3 rounded-lg border border-gray-100 hover:bg-gray-100 transition-colors font-montserrat"
           >
             Contáctanos
-          </a>
+          </Link>
         </div>
       </div>
     </div>

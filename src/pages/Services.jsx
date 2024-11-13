@@ -21,11 +21,21 @@ function Services() {
             Nos especializamos en el desarrollo de soluciones de infraestructura eléctrica que cumplen con los más altos estándares de calidad y seguridad. Nuestros servicios de construcción eléctrica abarcan desde instalaciones en bajo y medio voltaje hasta sistemas de iluminación avanzados y redes de distribución.
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-4 font-roboto">
-            <li>Iluminación interior y exterior: Instalación y diseño de sistemas de iluminación adaptados a diversos espacios y necesidades, con eficiencia y estética.</li>
-            <li>Circuitos de fuerza: Montaje de circuitos eléctricos de potencia, garantizando una distribución segura y eficiente de la energía.</li>
-            <li>Redes en medio y bajo voltaje: Diseño e instalación de redes de distribución para edificios y complejos industriales en diferentes niveles de tensión.</li>
-            <li>Centros de transformación y protección: Implementación de estaciones de transformación para asegurar una entrega constante y controlada de energía.</li>
-            <li>Redes subterráneas: Instalación de sistemas de distribución subterráneos para proteger los cables y mejorar la estética del entorno.</li>
+            <li>
+              <span className="font-semibold">Iluminación interior y exterior:</span> Instalación y diseño de sistemas de iluminación adaptados a diversos espacios y necesidades, con eficiencia y estética.
+            </li>
+            <li>
+              <span className="font-semibold">Circuitos de fuerza:</span> Montaje de circuitos eléctricos de potencia, garantizando una distribución segura y eficiente de la energía.
+            </li>
+            <li>
+              <span className="font-semibold">Redes en medio y bajo voltaje:</span> Diseño e instalación de redes de distribución para edificios y complejos industriales en diferentes niveles de tensión.
+            </li>
+            <li>
+              <span className="font-semibold">Centros de transformación y protección:</span> Implementación de estaciones de transformación para asegurar una entrega constante y controlada de energía.
+            </li>
+            <li>
+              <span className="font-semibold">Redes subterráneas:</span> Instalación de sistemas de distribución subterráneos para proteger los cables y mejorar la estética del entorno.
+            </li>
           </ul>
         </div>
       </div>
@@ -46,9 +56,15 @@ function Services() {
             Nuestros servicios de construcción civil cubren desde la planificación inicial hasta la entrega de proyectos llave en mano. Con un enfoque en la calidad, sostenibilidad y puntualidad, EISCO ofrece soluciones integrales que se adaptan a los requerimientos de cada proyecto.
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-4 font-roboto">
-            <li>Desarrollo de proyectos estructurales</li>
-            <li>Urbanización y obra pública</li>
-            <li>Remodelación y adecuación de espacios</li>
+            <li>
+              <span className="font-semibold">Desarrollo de proyectos estructurales</span>
+            </li>
+            <li>
+              <span className="font-semibold">Urbanización y obra pública</span>
+            </li>
+            <li>
+              <span className="font-semibold">Remodelación y adecuación de espacios</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -69,7 +85,9 @@ function Services() {
             EISCO ofrece una amplia gama de suministros especializados para el sector eléctrico, facilitando a nuestros clientes el acceso a productos de calidad que cumplen con las normativas técnicas y de seguridad.
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 font-roboto">
-            <li>Provisión de materiales eléctricos: Ofrecemos una gran variedad de productos para cumplir con las especificaciones técnicas de cada proyecto.</li>
+            <li>
+              <span className="font-semibold">Provisión de materiales eléctricos:</span> Ofrecemos una gran variedad de productos para cumplir con las especificaciones técnicas de cada proyecto.
+            </li>
           </ul>
         </div>
       </div>

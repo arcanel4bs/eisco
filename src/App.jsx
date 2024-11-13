@@ -6,10 +6,12 @@ import Projects from './pages/Projects';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="flex flex-col min-h-screen bg-gray-50">
         <Navbar />
         <main className="flex-grow container mx-auto px-4 py-8 mt-16">
